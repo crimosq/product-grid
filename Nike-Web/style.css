@@ -1,0 +1,209 @@
+
+* {
+    margin:0;
+    padding: 0;
+    
+}
+
+.small-nav{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    width: 100%;
+    background-color: rgba(232, 232, 232, 0.933);
+    padding:7px;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    background-color:white;
+    padding:25px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+
+}
+
+.discount-card{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* width: 100%; */
+    background-color: rgba(232, 232, 232, 0.933);
+    padding:25px;
+}
+.small-options {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+.options {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 8px;
+}
+.deal {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+}
+.banner{
+    display: flex;
+
+}
+
+.itemone {
+    height: 50%;
+    width:50%;
+}
+
+.itemtwo {
+    height: 50%;
+    width:50%;  
+}
+ .header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding:10px;
+
+ }
+
+
+.container {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    gap: -20px;
+}
+.swoosh {
+    width: 75px;
+    height:75px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+a {
+    text-decoration: none;
+    
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+
+}
+.box a:hover {
+    cursor: pointer;
+}
+a:focus {
+    text-decoration: none;
+}
+.img-shoes{
+    width:300px;
+    height:300px;
+    
+}
+h4 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.price {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.type {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top :10px;
+    color:  #999494;
+}
+.container-carousel{
+    height: 70vh;
+}
+
+footer {
+    width:100%;
+    background-color: rgb(33, 38, 43);
+    padding: 30px;
+
+}
+
+.container-list {
+    display: flex;
+    justify-content: center;
+}
+
+.first-list{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.second-list {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.third-list {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display:flex;
+    flex-direction: column; 
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .small-nav, .main-nav, .discount-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        display: block;
+        padding: 10px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-shoes {
+        width: 80%;
+        height: auto;
+    }
+
+    .container-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-list, .second-list, .third-list {
+        margin-bottom: 20px;
+    }
+
+    h4, .price, .type {
+        text-align: center;
+    }
+}
